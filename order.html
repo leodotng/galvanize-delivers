@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Place Your Order</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+  <link href="main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <nav class="blue darken-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Place Your Order</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Order Delivery</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Order Delivery</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">gFood - Delivered</h1>
+      <div class="row center">
+        <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+      </div>
+
+
+<!-- MENU DISPLAY DATA -->
+<div>
+  <table class="striped highlight responsive-table">
+  <tr><h2>Burgers</h2></tr>
+<td class="menuSpot" id="CheezeBurger">
+</td>
+<td class="menuSpot" id="CheezeBurgerPrice">
+</td>
+
+<td id="HamHamBurger">
+</td>
+<td id="HamHamBurgerPrice">
+</td>
+
+<td><h2>Pizza</h2>
+  <td id="CheezePizza">
+</td>
+  <td id="CheezePizzaPrice">
+</td>
+  <td id="PeppPizza">
+</td>
+  <td id="PeppPizzaPrice">
+</td>
+  <td id="SausPizza">
+</td>
+  <td id="SausPizzaPrice">
+  </td>
+
+</table>
+</div>
+<!-- END MENU DATA -->
+
+
+
+<!-- Totals -->
+<div>
+<p><h3>Subtotal</h3></p>
+<p><h3>Tax</h3></p>
+<p class="strong"><h2>Grand Total</h2></p>
+</div>
+<!-- END Totals -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ORDER FORM -->
+      <div class="row">
+          <form class="col s12">
+            <div class="col">
+
+              <div class="input-field col s6">
+                <input placeholder="1" id="first_name" type="text" class="validate">
+                <label for="first_name">Quantity</label>
+              </div>
+
+              <div class="row center">
+                <a href="" id="download-button" class="btn-large waves-effect waves-light blue darken-1">Add Item</a>
+              </div>
+
+
+
+              <div class="input-field col s6">
+                <input placeholder="Name" id="first_name" type="text" class="validate">
+                <label for="first_name">Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input placeholder="Phone Number" id="last_name" type="text" class="validate">
+                <label for="last_name">Phone Number</label>
+              </div>
+              <div class="input-field col s6">
+                <input placeholder="Address" id="last_name" type="text" class="validate">
+                <label for="last_name">Address</label>
+              </div>
+            </div>
+
+<!-- END ORDER FORM -->
+
+
+
+</div>
+
+
+      <div class="row">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light blue darken-1" onClick="alert('Your order has been SENT!')">Deliver It!</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+<!-- ASIDE -->
+<aside>
+
+</aside>
+
+
+
+
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+
+
+
+
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer blue darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Galvanize Delivers</h5>
+          <p class="grey-text text-lighten-4">Fine Dining, Delivered.</p>
+
+
+        </div>
+        <!--
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      -->
+        <div class="col l4 s13">
+          <h5 class="white-text">Home</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Order Delivery</a></li>
+          <!--  <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          -->
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">2016 Galvanize Delivers - JOSH LEONG</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <!-- <script src="js/init.js"></script> I DONT THINK I NEED THIS -->
+  <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>
