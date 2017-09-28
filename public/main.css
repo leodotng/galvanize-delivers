@@ -1,0 +1,10 @@
+aside {
+border-size:2px;
+border-style:solid;
+border-color:black;
+}
+
+.backcss {
+    background-image: url("img/citystreets.jpg");
+    background-size: 100vh 100vh;
+}
